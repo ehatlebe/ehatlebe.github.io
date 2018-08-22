@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #018571;
+  font-family: Arial, sans-serif;
+  color: #f5f5f5;
+  text-align: center;
+  margin: 0;
+}
+/* link colors */
+a {
+  color: #f5f5f5;
+}
+a.park_link {
+  color: #018571;
+}
+a.home {
+  padding: 0 10px;
+}
+header {
+  margin: 10px;
+  border-radius: 12px;
+  padding: 10px;
+  background: #a6611a;
+  color: #f5f5f5;
+  letter-spacing: 2px;
+}
+footer {
+  margin: 10px;
+  border-radius: 12px;
+  padding: 10px;
+  background: #a6611a;
+  color: #f5f5f5;
+}
+img.locator_map {
+  width:60%;
+  height:60%;
+  min-width: 280px;
+  max-width: 520px;
+  margin: 10px, auto;
+}
+.content {
+  padding: 10px;
+}
+table {
+  margin: 10px auto;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: center;
+}
+td {
+  text-align: left;
+}
+table thead th {
+  background-color: #a6611a;
+  border: none;
+  color: #f5f5f5;
+}
+table thead th:first-child {
+  border-radius: 10px 0 0 0;
+}
+table thead th:last-child {
+  border-radius: 0 10px 0 0;
+}
+table tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+table tbody tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}
+table tbody td {
+  border: none;
+  background-color: #f5f5f5;
+  color: #018571;
+}
+p {
+  min-width: 280px;
+  max-width: 520px;
+  margin: auto;
+  padding: 10px 0;
+  text-align: center;
+}
