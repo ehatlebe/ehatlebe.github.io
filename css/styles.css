@@ -1,4 +1,6 @@
 * {
+  margin: 15 10 45 10;
+  padding: 10;
   box-sizing: border-box;
 }
 
@@ -78,6 +80,11 @@ div.line {
 
 img {
   border: 2px solid #1B4F72;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 footer {
