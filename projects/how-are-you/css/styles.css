@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+nav {
+  margin: 0.3em;
+  padding: 0.5em 1em 0.5em 1em;
+  background: #636363; /* dark grey */
+  color: #f5f5f5; /* light grey */
+  font-size: 1.5em;
+}
+body {
+  margin: 0;
+  background-color: #f5f5f5; /* light grey */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #636363; /* dark grey */
+}
+footer {
+  margin: 0.3em;
+  padding: 0.5em;
+  background: #636363; /* dark grey */
+  color: #f5f5f5; /* light grey */
+  font-size: 1.2em;
+}
+div {
+  padding: 10px;
+}
+.main {
+  padding: 1em;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  max-width: 700px;
+}
+.question {
+  padding: 10px;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  line-height: 1.6;
+}
+.response {
+  padding: 10px;
+  font-size: 1em;
+  letter-spacing: 1.5px;
+  line-height: 2;
+}
+/* All Buttons */
+/* header and footer buttons */
+a {
+  color: #f5f5f5; /* light grey */
+  padding: 0 5px;
+}
+.btn_nav {
+  margin: 0.25em;
+  padding: 0.3em 0.5em;
+  background-color: #f5f5f5; /* light grey */
+  color: #636363; /* dark grey */
+  font-size: 0.9em;
+}
+.btn_foot {
+  margin: 0.25em 0.25em 0.25em 0em;
+  padding: 0.3em 0.5em;
+  background-color: #f5f5f5; /* light grey */
+  color: #636363; /* dark grey */
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* feeling buttons */
+button {
+  display: inline-block;
+  cursor: pointer;
+}
+.btn_feel {
+  margin: 0.25em;
+  padding: 0.5em;
+  border: 0.2em solid #636363; /* dark grey */
+  color: #636363; /* dark grey */
+  font-size: 1em;
+  font-weight: bold;
+}
+.happy {
+  background-color: #fb8072; /* pink */
+}
+.sad {
+  background-color: #80b1d3; /* blue */
+}
+.lost {
+  background-color: #ffffb3; /* yellow */
+}
+.defeated {
+  background-color: #bebada; /* purple */
+}
+.mad {
+  background-color: #8dd3c7; /* green */
+}
+.grateful {
+  background-color: #fdb462; /* orange */
+}
+.btn_head:hover {
+  background-color: #636363; /* dark grey */
+  color: #f5f5f5; /* light grey */
+}
+.btn_foot:hover {
+  background-color: #636363; /* dark grey */
+  color: #f5f5f5; /* light grey */
+}
+.btn_feel:hover {
+  background-color: #636363; /* dark grey */
+  color: #f5f5f5; /* light grey */
+}
+.btn_feel:active {
+  background-color: #f5f5f5; /* light grey */
+  color: #636363; /* dark grey */
+}
+/* makes feeling buttons jump */
+.bouncy {
+  animation: bouncy 6s infinite linear;
+  position: relative;
+}
+@keyframes bouncy {
+  0%{top:0em}
+  40%{top:0em}
+  43%{top:-0.9em}
+  46%{top:0em}
+  48%{top:-0.4em}
+  50%{top:0em}
+  100%{top:0em;}
+}
+/* changes the fonts for devices with smaller screen sizes */
+@media only screen and (max-width: 375px) {
+  .question {
+    padding: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+  .response {
+    padding: 10px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    line-height: 1.6;
+  }
+  .btn_nav {
+    margin: 0.25em;
+    padding: 0.3em 0.5em;
+    font-size: 0.8em;
+  }
+  .btn_foot {
+    margin: 0.25em 0.25em 0.25em 0em;
+    padding: 0.3em 0.5em;
+    font-size: 0.8em;
+  }
+  .btn_feel {
+    margin: 0.25em 0.25em 0.5em 0.25em;
+    padding: 0.5em;
+    font-size: 0.9em;
+  }
