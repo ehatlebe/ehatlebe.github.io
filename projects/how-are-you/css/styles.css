@@ -118,20 +118,7 @@ button {
   background-color: #f5f5f5; /* light grey */
   color: #636363; /* dark grey */
 }
-/* makes feeling buttons jump */
-.bouncy {
-  animation: bouncy 6s infinite linear;
-  position: relative;
-}
-@keyframes bouncy {
-  0%{top:0em}
-  40%{top:0em}
-  43%{top:-0.9em}
-  46%{top:0em}
-  48%{top:-0.4em}
-  50%{top:0em}
-  100%{top:0em;}
-}
+
 /* changes the fonts for devices with smaller screen sizes */
 @media only screen and (max-width: 375px) {
   .question {
