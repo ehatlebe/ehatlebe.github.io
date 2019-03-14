@@ -28,7 +28,7 @@ var lost = [
   "It\'s time for a 5-minute dance break.",
   "Find a way to let your light shine.",
   "Maybe it's time for an adventure.",
-  "Do something nice for someone else. It helps.",
+  "Do something for someone else.",
   "It is up to us to build a life we love."
 ];
 
