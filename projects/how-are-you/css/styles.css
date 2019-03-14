@@ -21,7 +21,7 @@ body {
   color: #636363; /* dark grey */
 }
 footer {
-  margin: 0.3em;
+  margin: 0.1em, 0.3em;
   padding: 0.5em;
   background: #636363; /* dark grey */
   color: #f5f5f5; /* light grey */
@@ -48,6 +48,16 @@ div {
   font-size: 1em;
   letter-spacing: 1.5px;
   line-height: 2;
+}
+.footer {
+  padding: 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.text {
+  padding: 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
 }
 /* All Buttons */
 /* header and footer buttons */
